@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - AI Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="hero">
+        <h1>Mini Agarwal</h1>
+        <p class="subtitle">AI Engineer | I build AI products</p>
+        <p class="tagline">I ship AI tools people actually use. Currently looking for my next role.</p>
+        
+        <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">VIEW PROJECTS</a>
+            <a href="#contact" class="btn btn-secondary">LET'S CONNECT</a>
+            <a href="#" class="btn btn-secondary" id="downloadCV">DOWNLOAD CV</a>
+        </div>
+<!-- 
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-value">4B+</span>
+                <span class="stat-label">images processed at Deepview</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">5+</span>
+                <span class="stat-label">years engineering</span>
+            </div>
+        </div> -->
+    </div>
+
+    <section class="section">
+        <h2 class="section-title" id="projects">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <!-- <span>📟</span> -->
+                      <img src="RAG_System.png" alt="RAG System Project">
+                    <!-- <div class="project-badge">Featured</div> -->
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">RAG SYSTEM</h3>
+                    <p class="project-description">Built end-to-end RAG chatbot enabling question-answering from uploaded PDFs using LangChain, FAISS vector
+search, and Groq LLM with SentenceTransformer embeddings.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Hugging Face</span>
+                        <span class="tag">Groq</span>
+                        <span class="tag">FAISS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://rag-system-miniagarwal.streamlit.app/" class="project-link">Live Demo →</a>
+                        <a href="https://github.com/Mini2002/Rag-System" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image code">
+                    <!-- <span>🎨</span> -->
+                        <img src="Customer_Churn_Predictor.png" alt="Customer Churn Predictor Project">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">CUSTOMER CHURN PREDICTOR</h3>
+                    <p class="project-description"> Built a churn prediction model using Logistic Regression and random forest (Best AUC: 0.80).Handled class imbalance using class weights, improving recall from 52% to 77%</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">streamlit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://customer-churn-predictor-miniagarwal.streamlit.app/" class="project-link">Live Demo →</a>
+                        <a href="https://github.com/Mini2002/Customer-Churn-Predictor" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image vscode">
+                    <span>📟</span>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">NEWS SCRAPER</h3>
+                    <p class="project-description">Developed automated ETL pipeline that extracts 100+ live BBC headlines, transforms unstructured text data, and
+loads processed results into MySQL database with scheduled execution every 12 hours.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Pandas</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- <a href="#" class="project-link">Live Demo →</a> -->
+                        <a href="https://github.com/Mini2002/News_Scraper" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+            <p class="about-text">I’m a Software Engineer at Tech Mahindra with 2 years of experience. I have 
+specialized in turning "cool AI demos" into secure, deployable enterprise tools. With a background in Full Stack development, I understand that a powerful model is useless without a reliable application wrapping it.
+Currently working on local RAG systems that let internal teams chat with their data without compromising privacy.</p>
+            
+            <div class="highlights">
+                <div class="highlight">
+                    <div class="highlight-title">Ship fast</div>
+                    <div class="highlight-text">Production in weeks, not months</div>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-title">Full-stack AI</div>
+                    <div class="highlight-text">From Python to cloud APIs to web frontends</div>
+                </div>
+                <!-- <div class="highlight">
+                    <div class="highlight-title">Production mindset</div>
+                    <div class="highlight-text">Built systems handling real-time ML inference at scale</div>
+                </div> -->
+            </div>
+
+            <div class="tech-stack">
+                <h3 class="section-title">Tech Stack</h3>
+                <div class="tech-grid">
+                    <div class="tech-category">
+                        <h4>AI / ML</h4>
+                        <ul class="tech-list">
+                            <li>OpenAI API</li>
+                            <li>Gemini API</li>
+                            <li>LangChain</li>
+                            <li>Groq API</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Languages</h4>
+                        <ul class="tech-list">
+                            <li>Python</li>
+                            <!-- <li>TypeScript</li> -->
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Infrastructure</h4>
+                        <ul class="tech-list">
+                            <li>AWS</li>
+                            <li>Docker</li>
+                            <li>GitHub</li>
+                            <!-- <li>Kubernetes</li> -->
+                            <!-- <li>Terraform</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2 class="contact-title">Let's Build Something</h2>
+        <p class="contact-subtitle">Looking for AI Engineer roles. Open to remote + relocation.</p>
+        <div class="contact-links">
+            <a href="mailto:miniagarwal2002@gmail.com" class="contact-btn">📧 Email</a>
+            <a href="https://www.linkedin.com/in/mini-agarwal-6b7a761b1/" class="contact-btn">💼 LinkedIn</a>
+            <a href="https://github.com/Mini2002" class="contact-btn">🐙 GitHub</a>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Mini Agarwal</p>
+    </footer>
+</body>
+</html>
